@@ -1,56 +1,49 @@
 $(document).ready(function () {
   AOS.init();
-  const eventswiper = document.querySelector(".swiper-wrapper");
-  const event = [
+  const experience-pageswiper = document.querySelector(".swiper-wrapper");
+  const experience-page = [
     // eslint-disable-next-line linebreak-style
     {
-      title: "Talk on ABC",
-      image: "assets/images/event/image3.jpg",
+      title: "Conférence Coding the future",
+      image: "assets/images/experience-page/2.jpeg",
     },
     {
-      title: "Keynote on XYZ",
-      image: "assets/images/event/image2.jpg",
+      title: "Forum Geni entreprise",
+      image: "assets/images/experience-page/3.jpeg",
     },
-    { title: "Group Picture", image: "assets/images/event/image1.jpg" },
+    { title: "Conférence Historia", 
+    image: "assets/images/experience-page/4.jpeg" },
     {
-      title: "Presentation",
-      image: "assets/images/event/image4.jpg",
-    },
-    {
-      title: "Note on XYZ",
-      image: "assets/images/event/image5.jpg",
+      title: "Hackathon Robotics",
+      image: "assets/images/experience-page/5.jpeg",
     },
     {
-      title: "Keytopics",
-      image: "assets/images/event/image6.jpg",
+      title: "The 100 Days in Codeland v1",
+      image: "assets/images/experience-page/6.jpeg",
     },
     {
-      title: "The Gist",
-      image: "assets/images/event/image7.jpg",
-    },
-    {
-      title: "Thank You",
-      image: "assets/images/event/image8.jpg",
+      title: "Conférence Climb the Cloud",
+      image: "assets/images/experience-page/8.jpeg",
     },
   ];
-  // Filling the details from the object array event
+  // Filling the details from the object array experience-page
   function fillData() {
     let output = "";
-    for (let x = 0; x < event.length; x++) {
+    for (let x = 0; x < experience-page.length; x++) {
       output += `
     <div class="swiper-slide">
     <div class="img-container">
-      <img src=${event[x].image} alt="" class="img-fluid" />
+      <img src=${experience-page[x].image} alt="" class="img-fluid" />
     </div>
     <div class="container arrow_contain">
       <div class="row justify-content-center">
         <div class="col-md-8">
           <div class="wrapper">
-            <div class="content">
-              <div class="title">
+            <div class="title">
+              <div class="content">
                 <div class="text-wrapper">
                   <div class="text-inner">
-                  ${event[x].title}
+                  ${experience-page[x].title}
                   </div>
                 </div>
               </div>
@@ -62,9 +55,9 @@ $(document).ready(function () {
     </div>
   </div>`;
     }
-    eventswiper.innerHTML = output;
+    experience-pageswiper.innerHTML = output;
   }
-  document.addEventListener("DOMContentLoaded", fillData());
+  document.addexperience-pageListener("DOMContentLoaded", fillData());
   const parallaxSliderOptions = {
     speed: 1000,
     effect: "coverflow",
