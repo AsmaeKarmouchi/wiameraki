@@ -102,6 +102,10 @@ body{
   }
 }
 
+.rounded-circle {
+  border-radius: 20% !important;
+}
+
 /*Social icons*/
 
 :root {
@@ -599,4 +603,8 @@ a:hover {
   .text{
     margin-top: 1rem;
   }
+}
+
+a{
+  color: #4e00bb;
 }
