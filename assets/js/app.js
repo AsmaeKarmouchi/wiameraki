@@ -10,7 +10,7 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">Wiame Raki </a>
+<a class="navbar-brand" href="index.html">Karmouchi Asmae</a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -142,7 +142,7 @@ let footer = $(`
                   $email = $_POST['email'];
                   $message = $_POST['message'];
               
-                  $to = "wiamerk13@gmail.com"; // replace with your email
+                  $to = "karmouchiasmae@gmail.com"; // replace with your email
                   $subject = "New Message from Portfolio";
                   $body = "Name: $name\nEmail: $email\nMessage: $message";
               
@@ -171,7 +171,7 @@ let footer = $(`
 
     <div class="rounded-social-buttons tag">
 
-    <a class="social-button linkedin" href="https://www.linkedin.com/in/wiame-raki-09720617b/" target="_blank" >
+    <a class="social-button linkedin" href="https://www.linkedin.com/in/asmae-karmouchi-522769255/" target="_blank" >
     <!-- svg code for linkedin icon -->
       <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
         stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">

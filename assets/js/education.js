@@ -158,10 +158,10 @@ document.getElementById('btn-auto-click').addEventListener('click', function() {
   var downloadLink = document.createElement('a');
   
   // Set the href attribute to the URL of the file you want to download
-  downloadLink.href = 'assets/docs/CV_RAKI_Wiame.pdf';
+  downloadLink.href = 'assets/docs/CV_Karmouchi_asmae.pdf';
   
   // Set the download attribute to specify the file name
-  downloadLink.download = 'CV_RAKI_Wiame';
+  downloadLink.download = 'CV_Karmouchi_asmae';
   
   // Append the anchor element to the body
   document.body.appendChild(downloadLink);
